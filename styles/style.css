@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+/* CABEÇALHO */
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+#logo-header{
+    height: 72px;
+}
+
+/* NAVEGADOR - PÁGINAS */
+
+nav{
+    display: flex;
+    gap: 35px;
+    font-family: 'Sarala';
+    color: #FFF2E7;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#comunidade{
+    color: #FFF2E7;
+}
+
+#comunidade:hover{
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+#tutorial{
+    color: #FFF2E7;
+}
+
+#tutorial:hover{
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+#open-source{
+    color: #FFF2E7;
+    cursor: pointer;
+}
+
+#open-source:hover{
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+#comandos{
+    color: #FFF2E7;
+    cursor: pointer;
+}
+
+#comandos:hover{
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+/* MENU-SUPERIOR */
+
+main{
+    border-top: 0.4px solid #FFF2E7;
+    margin-bottom: 50px;
+}
+
+h1{
+    font-size: 64px;
+}
+
+#menu-superior{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#textos{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-style: normal;
+}
+
+button{
+    font-family: 'Sarala';
+    font-size: 24px;
+    color: #2F2325;
+    font-weight: 400;
+    background-color: #ecd6c4;
+    border-radius: 20px;
+    width: 180px;
+    height: 60px;
+    box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+#balle-bot{
+    height: 430px;
+}
+
+/* MENU-INFERIOR */
+
+#menu-inferior{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+h3{
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Righteous';
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFF2E7;
+    margin-bottom: 16px;
+
+}
+
+.texto-inferior{
+    font-family: 'Sarala';
+    color: #ECD6C4;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+footer{
+    border-top: 0.4px solid #FFF2E7;
+    padding: 32px;   
+}
+
+#logo-ballerini{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
